@@ -4,5 +4,7 @@ const produtos = [
   { id: 3, nome: "Moto", preco: 21780.54 },
   { id: 4, nome: "Celular", preco: 1400 },
   { id: 5, nome: "Caneta", preco: 2.5 },
+  { id: 6, nome: "Arroz", preco: 99.52 },
+  { id: 7, nome: "Fone", preco: 3280.99 },
 ];
 export default produtos;

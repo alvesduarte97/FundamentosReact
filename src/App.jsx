@@ -1,6 +1,8 @@
 /* eslint-disable import/no-anonymous-default-export */
 import "./App.css";
 
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
 import TabelaProdutos from "./components/repeticao/TabelaProdutos";
@@ -15,6 +17,10 @@ export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="#08 - Renderizacao Condicional" color="#1FDA9A">
+        <ParOuImpar numero={21}/>
+        <UsuarioInfo usuario={{nome: 'Fernando'}}/>
+      </Card>
       <Card titulo="#07 - Tabela Produtos" color="#E8B71A">
         <TabelaProdutos />
       </Card>
