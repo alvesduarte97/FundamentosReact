@@ -1,6 +1,8 @@
 /* eslint-disable import/no-anonymous-default-export */
 import "./App.css";
 
+import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import DiretaPai from "./components/comunicacao/DiretaPai";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import Card from "./components/layout/Card";
@@ -17,9 +19,15 @@ export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="#10 - Comunicacao Indireta" color="#D0C91F">
+        <IndiretaPai />
+      </Card>
+      <Card titulo="#09 - Comunicacao Direta" color="#28ABE3">
+        <DiretaPai />
+      </Card>
       <Card titulo="#08 - Renderizacao Condicional" color="#1FDA9A">
-        <ParOuImpar numero={21}/>
-        <UsuarioInfo usuario={{nome: 'Fernando'}}/>
+        <ParOuImpar numero={21} />
+        <UsuarioInfo usuario={{ nome: "Fernando" }} />
       </Card>
       <Card titulo="#07 - Tabela Produtos" color="#E8B71A">
         <TabelaProdutos />
