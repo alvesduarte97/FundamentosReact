@@ -1,6 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import "./App.css";
 
+import Input from "./components/formulario/Input";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
@@ -19,6 +20,9 @@ export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="#11 - Componente Controlado (Input)" color="#5E412F">
+        <Input />
+      </Card>
       <Card titulo="#10 - Comunicacao Indireta" color="#D0C91F">
         <IndiretaPai />
       </Card>
