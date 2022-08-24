@@ -1,6 +1,8 @@
 /* eslint-disable import/no-anonymous-default-export */
 import "./App.css";
 
+import Mega from "./components/mega/Mega";
+import Contador from "./components/contador/Contador";
 import Input from "./components/formulario/Input";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import DiretaPai from "./components/comunicacao/DiretaPai";
@@ -20,6 +22,12 @@ export default () => (
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="#13 - Mega" color="#4D6684">
+        <Mega />
+      </Card>
+      <Card titulo="#12 - Contador" color="#78C0A8">
+        <Contador numeroInicial={10}/>
+      </Card>
       <Card titulo="#11 - Componente Controlado (Input)" color="#5E412F">
         <Input />
       </Card>
