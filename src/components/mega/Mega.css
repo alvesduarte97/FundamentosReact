@@ -24,5 +24,5 @@
     height: 35px;
 
     background: radial-gradient(circle at 70px 70px, #9c9101, white);
-
+    box-shadow: 2px 2px 5px #494848;
 }
