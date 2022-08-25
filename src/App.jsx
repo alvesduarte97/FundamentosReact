@@ -23,10 +23,10 @@ export default () => (
     <h1>Fundamentos React</h1>
     <div className="Cards">
       <Card titulo="#13 - Mega" color="#4D6684">
-        <Mega />
+        <Mega qtdNumeros={3} min={1} max={60} />
       </Card>
       <Card titulo="#12 - Contador" color="#78C0A8">
-        <Contador numeroInicial={10}/>
+        <Contador numeroInicial={10} />
       </Card>
       <Card titulo="#11 - Componente Controlado (Input)" color="#5E412F">
         <Input />

@@ -1,0 +1,28 @@
+.Mega input {
+    font-size: 1.4rem;
+    width: 50px;
+    border-radius: 5px;
+
+}
+
+.Display {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.Display h3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+
+    background: radial-gradient(circle at 70px 70px, #9c9101, white);
+
+}
